@@ -1,0 +1,25 @@
+# Data (kept local; commit only tiny digitized CSVs)
+data/raw/
+data/processed/
+*.pdf
+!data/digitized/**
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.token
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Figures are committed (they are deliverables)
+!figures/
